@@ -23,28 +23,41 @@ body {
   width: 100%;
   display: grid;
   place-items: center;
-  border: solid navy;
 }
 .mainBody .row div {
   height: 80%;
   width: 60%;
-  border: solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
+.mainBody .row div h3 {
+  position: absolute;
+  z-index: -4;
+  font-size: 8rem;
+  color: #f2f2f2;
+  user-select: none;
+}
 .mainBody .row div input {
-  height: 40%;
+  height: 73.52px;
+  width: 162px;
   background: #fff;
   border: 3px solid #000;
   border-radius: 5px;
+  text-align: center;
+  transition: 0.3s;
+}
+.mainBody .row div input:hover, .mainBody .row div input:not(:placeholder-shown) {
+  transform: translateY(-7px);
 }
 .mainBody .row div .color {
   position: absolute;
-  height: 40%;
-  width: 20%;
-  background: lime;
+  height: 73.52px;
+  width: 162px;
+  background: #ffdb0d;
+  border: 3px solid #000;
+  border-radius: 5px;
   z-index: -1;
 }
 

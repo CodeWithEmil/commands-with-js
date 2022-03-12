@@ -6,5 +6,6 @@ input.addEventListener("keydown", function (e) {
 });
 
 let validate = (e) => {
-    alert(`${input.value} is the current text.`);
+    alert(`"${input.value}" is the current text.`);
+    input.value = null;
 }
