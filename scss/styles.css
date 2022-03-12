@@ -41,7 +41,7 @@ body {
 }
 .mainBody .row div input {
   height: 73.52px;
-  width: 162px;
+  width: 202px;
   background: #fff;
   border: 3px solid #000;
   border-radius: 5px;
@@ -54,7 +54,7 @@ body {
 .mainBody .row div .color {
   position: absolute;
   height: 73.52px;
-  width: 162px;
+  width: 202px;
   background: #ffdb0d;
   border: 3px solid #000;
   border-radius: 5px;
